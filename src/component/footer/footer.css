@@ -1,0 +1,61 @@
+.footer {
+    background: #1d1e25;
+}
+
+.footer__block {
+    display: flex;
+    justify-content: space-between;
+    padding: 61px 0;
+}
+
+.footer__icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__link {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form {
+    display: flex;
+    gap: 8px;
+}
+
+.form__input {
+    padding: 12px 41px 13px 16px;
+    border-radius: 22px;
+    background: #fff;
+    border: none;
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: -0.01em;
+    color: #8d8d8d;
+}
+
+.footer__form_sub_title {
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: -0.02em;
+    text-align: right;
+    color: #fff;
+}

@@ -6,6 +6,7 @@ import heroImage from './assets/svg/hero.svg'
 import AboutItem from './component/aboutItem/aboutItem'
 import person1 from './assets/image/person1.png'
 import Person from './component/person/person'
+import Footer from './component/footer/footer'
 function App() {
   return (
     <>
@@ -78,6 +79,17 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section className="work">
+        <div className="container">
+          <div className="work__block">
+            <h1 className="work__title">Simplify how your team <br/>works today.</h1>
+            <Button />
+          </div>
+        </div>
+      </section>
+
+      <Footer />
     </>
   )
 }
