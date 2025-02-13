@@ -1,11 +1,11 @@
 import React from "react";
 import './button.css'
-function Button() {
+function Button({title = "Get Started"}) {
     return (
         <>
             <button className="button">
                 <span className="button__title">
-                    Get Started
+                    {title}
                 </span>
             </button>
         </>

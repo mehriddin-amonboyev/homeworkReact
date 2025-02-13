@@ -1,0 +1,24 @@
+.about_item__block {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    gap: 28px;
+    align-items: start;
+}
+
+.about_item__title {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #242d52;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.about_item__sub_title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #242d52;
+    opacity: 0.5;
+}
