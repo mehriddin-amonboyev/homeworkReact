@@ -1,4 +1,14 @@
-.buttoncha{
-    border-radius: 5px;
-    background-color: #123456;
+.button {
+    width: 137px;
+    height: 44px;
+    border:none;
+    border-radius: 22px;
+    box-shadow: 0 15px 15px -10px #ff9f8e;
+    background: #f3603c;
+}
+
+.button__title {
+    font-weight: 700;
+    font-size: 13px;
+    color: #fcf6f5;
 }

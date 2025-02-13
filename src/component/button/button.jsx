@@ -1,9 +1,9 @@
 import React from "react";
-
+import './button.css'
 function Button() {
     return (
         <>
-            <button className="buttoncha">
+            <button className="button">
                 <span className="button__title">
                     Get Started
                 </span>
